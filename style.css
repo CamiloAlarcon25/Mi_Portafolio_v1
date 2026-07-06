@@ -13,11 +13,24 @@
 /* 1. Fondo de "alfombra" (Textura) */
 body {
     font-family: 'Inter', sans-serif;
-    /* Un color de fondo base oscuro, o si tienes una imagen de textura, aquí se pondría */
+    /* Fondo oscuro con patrón */
     background-color: #0a0e14;
     background-image: radial-gradient(#151c26 1px, transparent 1px);
-    background-size: 30px 30px; /* Esto crea un patrón geométrico sutil */
+    background-size: 30px 30px;
+    
+    /* CORRECCIÓN: Esto obliga a que todo el texto sea claro */
+    color: #e6edf3; 
     margin: 0;
+}
+
+/* Aseguramos que los encabezados y párrafos también tomen el color claro */
+h1, h2, h3, p, div {
+    color: #e6edf3;
+}
+
+/* Excepto los botones, que tienen su propio color */
+.nav-btn, .btn {
+    color: var(--accent-color);
 }
 
 /* 2. El recuadro central (donde vive tu contenido) */
