@@ -5,7 +5,7 @@
 :root {
     --bg-color: #0a0e14;
     --card-bg: #151c26;
-    --text-primary: #ffffff; /* Blanco para todo */
+    --text-primary: #ffffff;
     --accent-color: #00d4ff;
 }
 
@@ -19,7 +19,6 @@ body {
     margin: 0;
 }
 
-/* --- 4. RECUADRO CENTRAL (Main Container) --- */
 .main-container {
     background-color: #0f1721;
     max-width: 1000px;
@@ -28,57 +27,56 @@ body {
     border-radius: 15px;
     box-shadow: 0 0 50px rgba(0,0,0,0.5);
     border: 1px solid #30363d;
-    color: var(--text-primary); /* Forzamos blanco aquí */
 }
 
-/* --- 5. TEXTO GENERAL Y ENCABEZADOS --- */
+/* --- 4. TEXTOS Y ENCABEZADOS --- */
 h1, h2, h3, p, div { color: var(--text-primary); }
 
-/* --- 6. ELEMENTOS ESPECIALES (Cian) --- */
-header h1, .profesion-cursiva, .nav-btn, .btn {
-    color: var(--accent-color) !important;
-}
+header h1, .profesion-cursiva, .nav-btn { color: var(--accent-color) !important; }
 
-/* Profesión Cursiva */
 .profesion-cursiva {
     font-family: 'Dancing Script', cursive;
     font-size: 1.4em;
     margin: 15px 0 30px 0;
 }
 
-/* --- 7. NAVEGACIÓN (Píldoras) --- */
+/* --- 5. NAVEGACIÓN --- */
 .nav-container { display: flex; justify-content: center; gap: 15px; margin-top: 20px; padding-bottom: 40px; }
 
 .nav-btn {
     padding: 10px 25px;
     background-color: #1c2531;
-    color: #ffffff !important; /* Letras blancas */
     text-decoration: none;
     border-radius: 50px;
     border: 1px solid #30363d;
     transition: all 0.3s ease;
     font-weight: 500;
 }
+.nav-btn:hover { background-color: var(--accent-color); color: var(--bg-color) !important; }
 
-.nav-btn:hover { background-color: var(--accent-color); color: var(--bg-color); }
-
-/* --- 8. GRID Y CARDS --- */
+/* --- 6. CARDS Y BOTÓN VER PROYECTO --- */
 .grid-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; padding: 40px; }
 
 .card { 
-    background-color: var(--card-bg); 
-    padding: 25px; 
-    border-radius: 12px; 
+    background-color: #151c26;
+    border-radius: 20px;
     border: 1px solid #30363d;
+    overflow: hidden;
+    transition: transform 0.3s ease;
 }
+.card:hover { transform: translateY(-5px); }
 
+.card-content { padding: 20px; }
+.card-img { width: 100%; height: 150px; object-fit: cover; display: block; }
+
+/* ESTILO DEFINITIVO DEL BOTÓN */
 .btn {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 20px;
     background-color: transparent;
     border: 1px solid var(--accent-color);
-    color: #ffffff !important; /* Blanco fijo */
+    color: #ffffff !important; /* Blanco siempre */
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
@@ -87,44 +85,6 @@ header h1, .profesion-cursiva, .nav-btn, .btn {
 
 .btn:hover {
     background-color: var(--accent-color);
-    color: #ffffff !important; /* Mantenemos blanco al pasar el cursor */
+    color: #ffffff !important; /* Blanco al pasar el mouse */
     border-color: var(--accent-color);
-    cursor: pointer;
-}
-
-.card { 
-    background-color: #151c26; /* Fondo de la tarjeta */
-    padding: 0; /* Quitamos padding interno para que la imagen/color encaje */
-    border-radius: 20px; /* Bordes más redondeados tipo Canva */
-    border: 1px solid #30363d;
-    overflow: hidden; /* Importante para que el contenido no se salga de los bordes */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.card:hover { 
-    transform: translateY(-5px); 
-    box-shadow: 0 10px 20px rgba(0,0,0,0.3); /* Sombra suave */
-}
-
-/* Contenido dentro de la tarjeta */
-.card-content {
-    padding: 20px; /* Aquí ponemos el espacio para el texto */
-}
-
-.card h3 {
-    margin-top: 10px;
-    font-size: 1.2em;
-    font-weight: bold;
-}
-
-.card p {
-    font-size: 0.9em;
-    color: #b0b8c4; /* Un gris claro para que contraste menos que el título */
-}
-
-.card-img {
-    width: 100%;       /* Ocupa todo el ancho de la tarjeta */
-    height: 150px;     /* Altura fija para que todas sean iguales */
-    object-fit: cover; /* Recorta la imagen sin deformarla (muy importante) */
-    display: block;
 }
