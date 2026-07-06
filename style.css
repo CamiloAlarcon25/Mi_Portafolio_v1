@@ -78,7 +78,7 @@ header h1, .profesion-cursiva, .nav-btn, .btn {
     padding: 10px 20px;
     background-color: transparent;
     border: 1px solid var(--accent-color);
-    color: #ffffff !important; /* Fuerza el color blanco */
+    color: #ffffff !important; /* Blanco fijo */
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
@@ -87,8 +87,9 @@ header h1, .profesion-cursiva, .nav-btn, .btn {
 
 .btn:hover {
     background-color: var(--accent-color);
-    color: #0a0e14 !important; /* Fuerza el texto oscuro al pasar el mouse para que se lea sobre el fondo cian */
+    color: #ffffff !important; /* Mantenemos blanco al pasar el cursor */
     border-color: var(--accent-color);
+    cursor: pointer;
 }
 
 .card { 
