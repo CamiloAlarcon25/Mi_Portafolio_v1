@@ -1,4 +1,7 @@
-/* Paleta de colores: Fondo oscuro (Deep Navy) y acento Cian Eléctrico */
+/* --- 1. IMPORTACIONES --- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+/* --- 2. VARIABLES Y BASE --- */
 :root {
     --bg-color: #0a0e14;
     --card-bg: #151c26;
@@ -8,22 +11,44 @@
 }
 
 body {
-    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
     background-color: var(--bg-color);
     color: var(--text-primary);
     margin: 0;
     line-height: 1.6;
 }
 
-header {
-    text-align: center;
-    padding: 80px 20px;
-    background: linear-gradient(180deg, #151c26 0%, #0a0e14 100%);
-    border-bottom: 2px solid var(--accent-color);
+/* --- 3. NAVEGACIÓN (Píldoras) --- */
+.nav-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    padding-bottom: 40px;
 }
 
+.nav-btn {
+    padding: 10px 25px;
+    background-color: #1c2531;
+    color: var(--text-primary);
+    text-decoration: none;
+    border-radius: 50px;
+    border: 1px solid #30363d;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.nav-btn:hover {
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+    border-color: var(--accent-color);
+}
+
+/* --- 4. HEADER --- */
+header { text-align: center; padding: 60px 20px; border-bottom: 1px solid #30363d; }
 header h1 { font-size: 2.5em; margin-bottom: 10px; color: var(--accent-color); }
 
+/* --- 5. GRID Y CARDS --- */
 .grid-container { 
     display: grid; 
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
@@ -41,10 +66,7 @@ header h1 { font-size: 2.5em; margin-bottom: 10px; color: var(--accent-color); }
     transition: transform 0.3s ease, border-color 0.3s ease;
 }
 
-.card:hover { 
-    transform: translateY(-10px);
-    border-color: var(--accent-color);
-}
+.card:hover { transform: translateY(-10px); border-color: var(--accent-color); }
 
 .btn {
     display: inline-block;
@@ -59,11 +81,6 @@ header h1 { font-size: 2.5em; margin-bottom: 10px; color: var(--accent-color); }
     transition: 0.3s;
 }
 
-.btn:hover {
-    background-color: var(--accent-color);
-    color: var(--bg-color);
-}
+.btn:hover { background-color: var(--accent-color); color: var(--bg-color); }
 
 footer { text-align: center; padding: 40px; color: var(--text-secondary); }
-
-
