@@ -43,16 +43,24 @@ header h1, .profesion-cursiva, .nav-btn { color: var(--accent-color) !important;
 /* --- 5. NAVEGACIÓN --- */
 .nav-container { display: flex; justify-content: center; gap: 15px; margin-top: 20px; padding-bottom: 40px; }
 
+/* --- 7. NAVEGACIÓN --- */
 .nav-btn {
     padding: 10px 25px;
     background-color: #1c2531;
+    color: #ffffff !important; /* Letras blancas fijas */
     text-decoration: none;
     border-radius: 50px;
     border: 1px solid #30363d;
     transition: all 0.3s ease;
     font-weight: 500;
 }
-.nav-btn:hover { background-color: var(--accent-color); color: var(--bg-color) !important; }
+
+/* Efecto al pasar el cursor: el fondo se vuelve cian y la letra oscura para leerse bien */
+.nav-btn:hover { 
+    background-color: var(--accent-color); 
+    color: var(--bg-color) !important; 
+    border-color: var(--accent-color);
+}
 
 /* --- 6. CARDS Y BOTÓN VER PROYECTO --- */
 .grid-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; padding: 40px; }
