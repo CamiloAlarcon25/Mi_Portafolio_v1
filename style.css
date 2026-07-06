@@ -122,3 +122,20 @@ header h1, .profesion-cursiva, .nav-btn { color: var(--accent-color) !important;
     font-size: 0.9em;
     font-weight: 600;
 }
+
+/* Importar Roboto para el texto largo */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+.sobre-mi-container p {
+    font-family: 'Roboto', sans-serif; /* Más legible para textos amplios */
+    font-size: 1.1em;                 /* Un poco más grande para facilitar lectura */
+    line-height: 1.8;                /* Más espacio entre líneas */
+    color: #d1d5db !important;        /* Un gris muy claro, cansa menos que el blanco puro */
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.sobre-mi-container h2 {
+    font-family: 'Inter', sans-serif; /* Mantenemos Inter para los títulos */
+    margin-bottom: 20px;
+}
