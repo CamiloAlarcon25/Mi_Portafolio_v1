@@ -112,3 +112,10 @@ header h1, .profesion-cursiva, .nav-btn, .btn {
     font-size: 0.9em;
     color: #b0b8c4; /* Un gris claro para que contraste menos que el título */
 }
+
+.card-img {
+    width: 100%;       /* Ocupa todo el ancho de la tarjeta */
+    height: 150px;     /* Altura fija para que todas sean iguales */
+    object-fit: cover; /* Recorta la imagen sin deformarla (muy importante) */
+    display: block;
+}
