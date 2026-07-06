@@ -10,12 +10,25 @@
     --accent-color: #00d4ff;
 }
 
+/* 1. Fondo de "alfombra" (Textura) */
 body {
     font-family: 'Inter', sans-serif;
-    background-color: var(--bg-color);
-    color: var(--text-primary);
+    /* Un color de fondo base oscuro, o si tienes una imagen de textura, aquí se pondría */
+    background-color: #0a0e14;
+    background-image: radial-gradient(#151c26 1px, transparent 1px);
+    background-size: 30px 30px; /* Esto crea un patrón geométrico sutil */
     margin: 0;
-    line-height: 1.6;
+}
+
+/* 2. El recuadro central (donde vive tu contenido) */
+.main-container {
+    background-color: #0f1721; /* Un color ligeramente distinto al fondo */
+    max-width: 1000px;
+    margin: 40px auto; /* Centrado */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 50px rgba(0,0,0,0.5); /* Sombra para que "flote" */
+    border: 1px solid #30363d;
 }
 
 /* --- 3. NAVEGACIÓN (Píldoras) --- */
