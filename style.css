@@ -52,9 +52,10 @@ header h1, .profesion-cursiva, .nav-btn, .btn {
 .nav-btn {
     padding: 10px 25px;
     background-color: #1c2531;
+    color: #ffffff !important; /* Letras blancas */
     text-decoration: none;
     border-radius: 50px;
-    border: 1px solid var(--accent-color);
+    border: 1px solid #30363d;
     transition: all 0.3s ease;
     font-weight: 500;
 }
@@ -80,4 +81,34 @@ header h1, .profesion-cursiva, .nav-btn, .btn {
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+}
+
+.card { 
+    background-color: #151c26; /* Fondo de la tarjeta */
+    padding: 0; /* Quitamos padding interno para que la imagen/color encaje */
+    border-radius: 20px; /* Bordes más redondeados tipo Canva */
+    border: 1px solid #30363d;
+    overflow: hidden; /* Importante para que el contenido no se salga de los bordes */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover { 
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3); /* Sombra suave */
+}
+
+/* Contenido dentro de la tarjeta */
+.card-content {
+    padding: 20px; /* Aquí ponemos el espacio para el texto */
+}
+
+.card h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.card p {
+    font-size: 0.9em;
+    color: #b0b8c4; /* Un gris claro para que contraste menos que el título */
 }
