@@ -78,9 +78,17 @@ header h1, .profesion-cursiva, .nav-btn, .btn {
     padding: 10px 20px;
     background-color: transparent;
     border: 1px solid var(--accent-color);
+    color: #ffffff; /* Letras blancas inicialmente */
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    transition: all 0.3s ease; /* Transición suave */
+}
+
+.btn:hover {
+    background-color: var(--accent-color); /* Se colorea al pasar el mouse */
+    color: var(--bg-color); /* El texto cambia a color oscuro para contrastar */
+    border-color: var(--accent-color);
 }
 
 .card { 
