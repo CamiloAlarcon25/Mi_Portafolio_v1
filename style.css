@@ -23,9 +23,14 @@ body {
     margin: 0;
 }
 
-/* Aseguramos que los encabezados y párrafos también tomen el color claro */
-h1, h2, h3, p, div {
-    color: #e6edf3;
+/* Forzar color blanco en todo el texto del portafolio */
+body, h1, h2, h3, h4, p, span, a, div {
+    color: #ffffff !important;
+}
+
+/* Excepción: Mantenemos el color cian para los títulos principales que queremos destacar */
+header h1, .profesion-cursiva, .nav-btn, .btn {
+    color: #00d4ff !important;
 }
 
 /* Excepto los botones, que tienen su propio color */
