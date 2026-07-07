@@ -177,3 +177,52 @@ header h1, .profesion-cursiva, .nav-btn { color: var(--accent-color) !important;
         padding: 20px;
     }
 }
+
+/* --- CORRECCIÓN RESPONSIVE TOTAL --- */
+
+/* Asegurar que nada se desborde del ancho de la pantalla */
+body {
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    width: 95%; /* Usa casi todo el ancho disponible */
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box; /* Crucial: incluye el padding en el ancho total */
+}
+
+/* Centrar navegación y evitar que se salga */
+.nav-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los botones bajen si no caben */
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+/* Corregir botones que se ven "raros" */
+.nav-btn {
+    white-space: nowrap; /* Evita que el texto se rompa */
+    padding: 8px 15px;
+    font-size: 0.9em;
+}
+
+/* Asegurar que las tarjetas siempre estén centradas */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 10px;
+    justify-items: center; /* Centra las tarjetas horizontalmente */
+}
+
+.card {
+    width: 100%;
+    max-width: 350px; /* Tamaño máximo para que no se vean gigantes en PC */
+    box-sizing: border-box;
+}
