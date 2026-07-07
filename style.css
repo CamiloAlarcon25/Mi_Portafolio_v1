@@ -139,3 +139,41 @@ header h1, .profesion-cursiva, .nav-btn { color: var(--accent-color) !important;
     font-family: 'Inter', sans-serif; /* Mantenemos Inter para los títulos */
     margin-bottom: 20px;
 }
+
+/* --- ADAPTACIÓN PARA CELULARES (Responsive) --- */
+@media (max-width: 768px) {
+    /* 1. Centrar el contenedor y ajustar padding */
+    .main-container {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    /* 2. Ajustar los botones de navegación para que se vean bien en vertical */
+    .nav-container {
+        flex-direction: column; /* Apila los botones uno debajo de otro */
+        gap: 10px;
+        align-items: center;
+    }
+
+    .nav-btn {
+        width: 80%; /* Asegura que no se desborden */
+        text-align: center;
+    }
+
+    /* 3. Asegurar que las tarjetas de proyectos estén bien centradas */
+    .grid-container {
+        grid-template-columns: 1fr; /* Una sola columna en celulares */
+        padding: 20px 0;
+        justify-items: center; /* Centra las tarjetas */
+    }
+
+    .card {
+        width: 100%; /* Las tarjetas ocupan casi todo el ancho */
+        max-width: 400px;
+    }
+
+    /* 4. Ajustar el texto del "Sobre mí" para que no quede muy pegado */
+    .sobre-mi-container {
+        padding: 20px;
+    }
+}
