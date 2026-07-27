@@ -13,16 +13,16 @@
 ## 📌 Navegación Rápida
 🌐 **[Acceder al Portafolio Desplegado (GitHub Pages)](https://camiloalarcon25.github.io/Mi_Portafolio_v1/)**
 
-- [Sobre Mí](#-sobre-mí)
-- [Stack Tecnológico Global](#-stack-tecnológico-global)
+- [Sobre Mí](#sobremi)
+- [Stack Tecnológico Global](#stack)
 - [Proyectos de Gestión y Análisis de Datos](#-proyectos-de-gestión-y-análisis-de-datos)
 - [Proyectos de I+D y Tecnología Embebida](#-proyectos-de-id-y-tecnología-embebida)
 - [Arquitectura del Sitio Web](#-arquitectura-del-sitio-web)
-- [Contacto](#-contacto)
+
 
 ---
 
-## 👨‍💻 Sobre Mí
+## <a name="sobremi"></a>👨‍💻 Sobre Mí
 
 Hola, soy **Camilo Alarcón**. Creo firmemente que los datos son el motor de las organizaciones modernas, pero su verdadero valor reside en transformarlos en decisiones estratégicas. Mi trabajo se sitúa en la intersección del análisis de datos, la ingeniería de procesos y la tecnología I+D: me especializo en construir soluciones que optimizan operaciones y facilitan el entendimiento de información compleja.
 
@@ -32,7 +32,7 @@ Actualmente, me encuentro en **búsqueda activa de nuevas oportunidades laborale
 
 ---
 
-## 🛠️ Stack Tecnológico Global
+## <a name="stack"></a>🛠️ Stack Tecnológico Global
 
 | Área / Vertical | Herramientas & Tecnologías |
 | :--- | :--- |
