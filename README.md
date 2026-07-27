@@ -83,28 +83,3 @@ Mi_Portafolio_v1/
 ├── CV_CamiloAlarconBGestion.pdf  # Curriculum Vitae actualizado
 └── README.md           # Documentación central del portafolio (este archivo)
 ```
-
-## 📊 Proyectos de Gestión y Análisis de Datos
-
-Esta sección agrupa casos de estudio enfocados en BI, modelado dinámico, pipeline ETL y optimización financiera:
-
-| Proyecto | Descripción / Enfoque | Enlace al Repositorio / README |
-| :--- | :--- | :---: |
-| **1. Análisis de Finanzas 2025** | Dashboard interactivo para control presupuestario y flujo financiero. | [Ver Proyecto ➔](https://github.com/CamiloAlarcon25/Finanzas/blob/main/README.md) |
-| **2. Reembolsos y Trayectos** | Control de viáticos, análisis geográfico y auditoría de topes de rendición. | [Ver Proyecto ➔](https://github.com/CamiloAlarcon25/Analisis_Visualizacion_Reembolsos/blob/main/README.md) |
-| **3. Trading Demo 2025** | Evaluación de performance en MT5, Win Rate, Profit Factor y curva de capital. | [Ver Proyecto ➔](https://github.com/CamiloAlarcon25/Analisis_CuentaDemo_Trading/blob/main/README.md) |
-| **4. Evaluación de Proyectos BI** | Modernización de modelo de tesis: de flujo de caja estático a simulador dinámico. | [Ver Proyecto ➔](https://github.com/CamiloAlarcon25/De-Excel-a-BI-Gestion-de-Proyectos/blob/main/README.md) |
-| **5. Pipeline de Datos Automatizado** | Arquitectura ETL end-to-end con Python, MySQL y Power BI multisucursal. | [Ver Proyecto ➔](https://github.com/CamiloAlarcon25/Pipeline-de-datos-Automatizado/blob/main/README.md) |
-| **6. Inteligencia de Datos** | Script en Python con Lógica Difusa (Fuzzy Matching) y reportes automatizados en PDF. | [Ver Proyecto ➔](https://github.com/CamiloAlarcon25/Inteligencia-de-Datos-con-Python/blob/main/README.md) |
-
----
-
-## 🔬 Proyectos de I+D y Tecnología Embebida
-
-Proyectos enfocados en prototipado de hardware/software, desarrollo web interactivo e Internet de las Cosas (IoT):
-
-| Proyecto | Descripción / Enfoque | Enlace al Repositorio / README |
-| :--- | :--- | :---: |
-| **1. Casos Clínicos Interactivos** | Plataforma EdTech/MedTech con visores anatómicos 3D (`.glb`) y carruseles. | [Ver Proyecto ➔](https://github.com/CamiloAlarcon25/Proyecto-Casos-Cl-nicos/blob/main/README.md) |
-| **2. Monitoreo Electrónico V1** | Sistema embebido IoT para rastreo de ganado con geofencing vía SMS (Arduino + 2G). | [Ver Proyecto ➔](https://github.com/CamiloAlarcon25/Sistema-de-Monitoreo-Electr-nico-V1/blob/main/README.md) |
-| **3. Monitoreo Electrónico V2** | GPS Tracker Pro V2.0: Cliente web dinámico (Leaflet.js) con streaming desde ESP32. | [Ver Proyecto ➔](https://github.com/CamiloAlarcon25/Sistema-de-Monitoreo-Electr-nico-V2/blob/main/README.md) |
