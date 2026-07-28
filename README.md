@@ -1,4 +1,4 @@
-# 🌐 Portafolio Profesional de Proyectos | Camilo Alarcón Benítez
+# Portafolio Profesional de Proyectos | Camilo Alarcón Benítez
 
 > **Ingeniero en Gestión Industrial \| Analista de Datos & BI \| Técnico en Telecomunicaciones y Redes**
 >
@@ -10,8 +10,8 @@
 
 ---
 
-## 📌 Navegación Rápida
-🌐 **[Acceder al Portafolio Desplegado (GitHub Pages)](https://camiloalarcon25.github.io/Mi_Portafolio_v1/)**
+## Navegación Rápida
+**[Acceder al Portafolio Desplegado (GitHub Pages)](https://camiloalarcon25.github.io/Mi_Portafolio_v1/)**
 
 - [Sobre Mí](#sobremi)
 - [Stack Tecnológico Global](#stack)
@@ -22,17 +22,17 @@
 
 ---
 
-## <a name="sobremi"></a>👨‍💻 Sobre Mí
+## <a name="sobremi"></a>Sobre Mí
 
 Hola, soy **Camilo Alarcón**. Creo firmemente que los datos son el motor de las organizaciones modernas, pero su verdadero valor reside en transformarlos en decisiones estratégicas. Mi trabajo se sitúa en la intersección del análisis de datos, la ingeniería de procesos y la tecnología I+D: me especializo en construir soluciones que optimizan operaciones y facilitan el entendimiento de información compleja.
 
 Actualmente, me encuentro en **búsqueda activa de nuevas oportunidades laborales** donde pueda aplicar mi capacidad analítica y perfil multidisciplinario para impulsar el crecimiento de equipos innovadores.
 
-📄 **[Descargar Curriculum Vitae (PDF)](https://github.com/CamiloAlarcon25/Mi_Portafolio_v1/blob/main/CV_CamiloAlarconBGestion.pdf)**
+**[Descargar Curriculum Vitae (PDF)](https://github.com/CamiloAlarcon25/Mi_Portafolio_v1/blob/main/CV_CamiloAlarconBGestion.pdf)**
 
 ---
 
-## <a name="stack"></a>🛠️ Stack Tecnológico Global
+## <a name="stack"></a>Stack Tecnológico Global
 
 | Área / Vertical | Herramientas & Tecnologías |
 | :--- | :--- |
@@ -45,7 +45,7 @@ Actualmente, me encuentro en **búsqueda activa de nuevas oportunidades laborale
 
 ---
 
-## 📊 Proyectos de Gestión y Análisis de Datos
+## Proyectos de Gestión y Análisis de Datos
 
 Esta sección agrupa casos de estudio enfocados en BI, modelado dinámico, pipeline ETL y optimización financiera:
 
@@ -60,7 +60,7 @@ Esta sección agrupa casos de estudio enfocados en BI, modelado dinámico, pipel
 
 ---
 
-## 🔬 Proyectos de I+D y Tecnología Embebida
+## Proyectos de I+D y Tecnología Embebida
 
 Proyectos enfocados en prototipado de hardware/software, desarrollo web interactivo e Internet de las Cosas (IoT):
 
@@ -72,7 +72,7 @@ Proyectos enfocados en prototipado de hardware/software, desarrollo web interact
 
 ---
 
-## 💻 Arquitectura del Sitio Web
+## Arquitectura del Sitio Web
 
 El sitio principal (`Mi_Portafolio_v1`) está construido con estándares de maquetación limpia y responsive:
 
